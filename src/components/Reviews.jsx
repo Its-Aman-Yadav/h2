@@ -11,43 +11,43 @@ export default function Component() {
       name: 'ANANYA MEHTA',
       quote: 'Living here has brought balance and joy to my daily routine!',
       title: 'Content Creator',
-      bgColor: 'bg-yellow-100',
+      bgColor: 'bg-orange-100',
     },
     {
       name: 'RISHABH SHARMA',
       quote: 'This place has everything I need to stay focused and relaxed!',
       title: 'Graphic Designer',
-      bgColor: 'bg-green-100',
+      bgColor: 'bg-yellow-100',
     },
     {
       name: 'PRIYA CHAUDHARY',
       quote: 'A vibrant community and an inspiring workspace – I love it here!',
       title: 'Product Manager',
-      bgColor: 'bg-purple-100',
+      bgColor: 'bg-orange-200',
     },
     {
       name: 'AMIT DESAI',
       quote: 'Amazing facilities, great vibe, and the perfect place to connect!',
       title: 'Software Developer',
-      bgColor: 'bg-blue-100',
+      bgColor: 'bg-yellow-200',
     },
     {
       name: 'NEHA RAO',
       quote: 'Co-living here has been an absolute game-changer for my work-life balance.',
       title: 'Marketing Specialist',
-      bgColor: 'bg-pink-100',
+      bgColor: 'bg-orange-300',
     },
     {
       name: 'RAHUL KAPOOR',
       quote: 'A community that feels like family, and amenities that make life easy!',
       title: 'Entrepreneur',
-      bgColor: 'bg-red-100',
+      bgColor: 'bg-yellow-300',
     },
     {
       name: 'SIMRAN SINGH',
       quote: 'From peace and quiet to fun hangouts, it’s the best of both worlds!',
       title: 'UX Designer',
-      bgColor: 'bg-cyan-100',
+      bgColor: 'bg-orange-400',
     },
   ]
 
@@ -56,7 +56,7 @@ export default function Component() {
       <div className="max-w-6xl mx-auto">
         <h1 className="text-4xl md:text-5xl font-medium text-center text-gray-800 mb-12">
           Let&apos;s hear it from
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600"> our community</span>
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-yellow-500"> our community</span>
         </h1>
 
         <div className="relative overflow-hidden">

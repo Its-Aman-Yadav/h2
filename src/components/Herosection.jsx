@@ -17,7 +17,7 @@ export default function Component() {
     "Choose your style"
   ]
 
-  const  words = ["better", "cute", "beautiful", "modern"];
+  const words = ["better", "cute", "beautiful", "modern"];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -31,17 +31,11 @@ export default function Component() {
       <main className="container mt-10 mx-auto px-6 py-12 grid md:grid-cols-2 gap-12 items-center">
         <div className="space-y-8">
           <h1 className="text-5xl font-bold text-gray-800">
-            Your Stay. <span className="text-[#00A6E6]">Your Way.</span>
-            {/* <FlipWords words={words} className="text-blue-500 text-3xl"/> */}
+            Your Stay. <span className="text-[#FF8C00]">Your Way.</span>
+            {/* <FlipWords words={words} className="text-orange-500 text-3xl"/> */}
           </h1>
 
-          
-      
-    
- 
-
-
-          <div className="border border-gray-300 bg-yellow-100 rounded-lg p-4 h-12 flex items-center justify-center">
+          <div className="border border-gray-300 bg-orange-100 rounded-lg p-4 h-12 flex items-center justify-center">
             <p
               key={textIndex}
               className="text-xl text-gray-600 transition-opacity duration-500 ease-in-out opacity-0 animate-fadeInUp"
@@ -52,19 +46,19 @@ export default function Component() {
           </div>
 
           <div className="relative">
-             <button className="bg-[#00A6E6] text-white px-6 py-2 rounded">
-            Get in Touch
-          </button>
+            <button className="bg-[#FF8C00] text-white px-6 py-2 rounded hover:bg-[#e67e00] transition-colors duration-300">
+              Get in Touch
+            </button>
           </div>
         </div>
 
-        <div className="relative mt-10 h-[300px] bg-[#E6F7FF] rounded-2xl p-4 overflow-visible flex justify-center items-center">
+        <div className="relative mt-10 h-[300px] bg-[#fff7e6] rounded-2xl p-4 overflow-visible flex justify-center items-center">
           <Image
             src="/hero/hero.png"
             alt="People relaxing on a yellow couch"
-            width={900} // Make the image larger to extend outside the container
-            height={500} 
-            className="object-contain drop-shadow-lg transform scale-110 -translate-y-8" // Scale up and position the image
+            width={900}
+            height={500}
+            className="object-contain drop-shadow-lg transform scale-110 -translate-y-8"
           />
         </div>
       </main>
@@ -72,12 +66,12 @@ export default function Component() {
       <div className="container mx-auto px-6 py-12">
         <div className="grid grid-cols-3 md:grid-cols-6 gap-8 place-items-center">
           {[
-            { name: 'Facebook', icon: <FaFacebook />, color: '#3b5998' },
-            { name: 'Twitter', icon: <FaTwitter />, color: '#1da1f2' },
-            { name: 'Instagram', icon: <FaInstagram />, color: '#e1306c' },
-            { name: 'LinkedIn', icon: <FaLinkedin />, color: '#0077b5' },
-            { name: 'YouTube', icon: <FaYoutube />, color: '#ff0000' },
-            { name: 'WhatsApp', icon: <FaWhatsapp />, color: '#25d366' },
+            { name: 'Facebook', icon: <FaFacebook />, color: '#FF8C00' },
+            { name: 'Twitter', icon: <FaTwitter />, color: '#FFA500' },
+            { name: 'Instagram', icon: <FaInstagram />, color: '#FF4500' },
+            { name: 'LinkedIn', icon: <FaLinkedin />, color: '#FF6347' },
+            { name: 'YouTube', icon: <FaYoutube />, color: '#FF0000' },
+            { name: 'WhatsApp', icon: <FaWhatsapp />, color: '#FF7F50' },
           ].map((social) => (
             <Link
               key={social.name}
